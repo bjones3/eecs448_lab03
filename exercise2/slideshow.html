@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title id = "title">Slide Show!</title>
+    <script type="text/javascript" src="slideshow.js"></script>
+
+	<style>
+    	img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+    	}
+		button {
+			margin: 0 auto;
+  			display: block;
+		}
+    </style>
+</head>
+<body>
+	<img src="cat1.jpg" id="kitties" width="900" height="600">
+	<br>
+	<div style="text-align: center">
+    	<button id ="btnPrevious" onclick="previous()">Previous</button>
+		<button id ="btnNext" onclick="next()">Next</button>
+	</div>
+</body>
+</html>
