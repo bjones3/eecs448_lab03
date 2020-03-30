@@ -1,0 +1,29 @@
+body
+{
+    background-color: lightblue; }
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px red; }
+
+table, tr, td {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid black;
+    border-collapse: collapse; }
+
+a:hover {
+    background-color: darkblue;
+    color: lightblue;
+    border: 1px solid white; }
+
+td a {
+        
+        font-size: 30px;
+        display: block; 
+        padding: 16px;
+        text-decoration: none; }
